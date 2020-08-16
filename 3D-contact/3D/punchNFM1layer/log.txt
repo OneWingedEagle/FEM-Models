@@ -1,0 +1,117 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ /* CONTACT
+contact
+contact
+ minEdgeLength ------------------------- 5.212906295915999E-4
+ / * N_CONTACT * NR_ITR. * AUG_ITER  * NLOADS  * MNR /
+1	5	1	1 0
+ / * NR_TOL  *  AUG_TOL * /
+1e-3	1e-3
+ /* PENALTY FACTOR */
+1.
+ /* COEF OF FRICTION */
+1.
+ / * data type */
+1
+ /* REGION ID */
+1
+ /* CORENR 1 */
+5203
+ /* CORENR 2 */
+5226
+ /* CORENR 3 */
+2424
+/* CORENR 4 */
+2401
+contact 0:  num. slave nodes ------------------------- 48
+ / * data type */
+1
+ /* REGION ID */
+2
+ /* CORENR 1 */
+5203
+ /* CORENR 2 */
+5226
+ /* CORENR 3 */
+2424
+/* CORENR 4 */
+2401
+contact 0:  num. master facets ------------------------- 10
+===== Slave Nodes ====  48
+===== Master Edges/Facets ====  10
+ Number of known u components : 3170
+Numb of unknown displacements: 5556
+ Number of known u components : 13642
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\results\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 5556
+
+ Calculating stiffness matrix ...
+ Static analysis....
+pf :9.006911602082396E8
+pft :0.0
+ Contact analysis....
+24  <==== 
+load_iter: 0
+cont_iter: 0
+1, stick: 26,  slip: 0
+1, num slave nodes: 48,  numContactingNodes: 26
+totalnumContactingNodes: 26
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 6.72E-01
+ICCG iteration:    50	 error : 8.93E-02	 res max: 6.00E-02
+ICCG iteration:   100	 error : 3.19E-06	 res max: 2.14E-06
+ICCG iteration:   107	 error : 7.17E-07	 res max: 4.82E-07
+nr_iter: 0           nr_err: 1.0       disp_err: 1.0
+1, stick: 26,  slip: 0
+1, num slave nodes: 48,  numContactingNodes: 26
+totalnumContactingNodes: 26
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.98E-03
+ICCG iteration:    50	 error : 2.28E-03	 res max: 1.37E-05
+ICCG iteration:    98	 error : 8.33E-07	 res max: 4.98E-09
+nr_iter: 1           nr_err: 0.012874890380472574       disp_err: 1.4512789805068438E-4
+1, stick: 26,  slip: 0
+1, num slave nodes: 48,  numContactingNodes: 26
+totalnumContactingNodes: 26
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 3.97E-04
+ICCG iteration:    50	 error : 3.19E-04	 res max: 1.26E-07
+ICCG iteration:    96	 error : 8.59E-07	 res max: 3.41E-10
+nr_iter: 2           nr_err: 7.430764340268472E-4       disp_err: 4.1072922921297214E-6
+1, stick: 26,  slip: 0
+NR error
+ 0	1.0000e+00
+ 1	1.2875e-02
+ 2	7.4308e-04
+aug_disp changes vs aug_iter
+1.0000e+00
+
+Gap[m] vs aug_iter
+1.8630e-05
+
+slide[m] vs aug_iter
+5.6594e-05
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\master_normal.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\slave_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\contact_force.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\results\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\results\disp0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM1layer\data_out.txt
+0.00000e+00
+
+Computation time: 17.667 seconds

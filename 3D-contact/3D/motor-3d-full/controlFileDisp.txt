@@ -1,0 +1,33 @@
+data file type: 2
+
+mesh file
+D:\JavaWorks\FEM problems\structural\motor-3d-full\motorFullWithRotor_no_stator.txt
+
+data folder:
+D:\JavaWorks\FEM problems\structural\motor-3d-full\
+
+file name common part:
+disp
+
+temporal: 0,90,1
+
+extension
+txt
+
+animation mode: 1
+
+batch mode: t
+
+timedelay: 1
+
+regions: 
+all
+
+rotstep:4.0
+
+dt:5.55555e-6
+
+node:0
+comp:1
+.092 0 0
+
