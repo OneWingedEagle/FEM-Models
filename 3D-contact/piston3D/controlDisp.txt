@@ -1,0 +1,33 @@
+data file type: 2
+
+mesh file
+D:\JavaWorks\FEM problems\structural\3D-contact\piston3D\bun.txt
+
+data folder:
+D:\JavaWorks\FEM problems\structural\3D-contact\piston3D\results
+
+file name common part:
+disp
+
+temporal: 0,9,1
+
+extension
+txt
+
+animation mode: 1
+
+batch mode: t
+
+timedelay: 10
+
+regions: 
+all
+
+rotstep:0.05
+
+dt:5.55555e-6
+
+node:-1
+comp:1
+.092 0 0
+

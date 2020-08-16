@@ -1,0 +1,68 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ minEdgeLength ------------------------- 0.009666660000000007
+ Number of known u components : 769
+Numb of unknown displacements: 2203
+ Number of known u components : 6203
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\results\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 2203
+
+ Calculating stiffness matrix ...
+ Static analysis....
+pf :1.8803418803418808E9
+pft :3.7606837606837615E7
+ Contact analysis....
+load_iter: 0
+cont_iter: 0
+1, stick: 25,  slip: 0
+1, num slave nodes: 25,  numContactingNodes: 25
+totalnumContactingNodes: 25
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 9.22E-01
+ICCG iteration:    31	 error : 6.73E-07	 res max: 6.21E-07
+nr_iter: 0           nr_err: 1.0       disp_err: 1.0
+1, stick: 25,  slip: 0
+1, num slave nodes: 25,  numContactingNodes: 25
+totalnumContactingNodes: 25
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.55E-01
+ICCG iteration:    28	 error : 6.23E-07	 res max: 3.45E-07
+nr_iter: 1           nr_err: 0.76994278354587       disp_err: 0.04963297892299448
+1, stick: 25,  slip: 0
+NR error
+ 0	1.0000e+00
+ 1	7.6994e-01
+aug_disp changes vs aug_iter
+1.0000e+00
+
+Gap[m] vs aug_iter
+1.3058e-05
+
+slide[m] vs aug_iter
+0.0000e+00
+
+7.9055e-05
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\master_normal.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\slave_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\contact_force.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\results\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\results\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\results\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\data_out.txt
+0.00000e+00
+
+Computation time: 2.843 seconds

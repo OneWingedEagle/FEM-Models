@@ -1,0 +1,34 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 940
+Numb of unknown displacements: 1190
+ Number of known u components : 6032
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\results\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 1190
+
+ Calculating stiffness matrix ...
+ Calculating deformation....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.63E-01
+ICCG iteration:    14	 error : 5.20E-07	 res max: 4.48E-07
+Deformation Max: 3.5342359203138765E-5 at node 250
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\results\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\results\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\results\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact\linear\data_out.txt
+0.00000e+00
+
+Computation time: 0.862 seconds

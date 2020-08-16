@@ -1,0 +1,71 @@
+//data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
+1
+//dimension 
+2
+//coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
+0
+//motor
+false
+//Number_of_Regions
+3
+//(name, density, E, v, [alpha,dT])
+base,t,7800, 1e11, .3
+connector,t,7800, 1e10, .3
+pile,t,7800, 2e11, .3
+//boundary condition:
+b1:
+b2:
+b3:
+b4:
+2
+x,-1,-.1999,0,0,1,0
+x,.1999,1.,0,0,1,0
+force folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\box
+
+force files:0,0,1
+
+intm:0
+
+dt:5.55555e-4
+
+contact
+1
+1.
+0.
+slave
+14
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+master
+8
+1	2
+2	3
+3	4
+4	5
+5	6
+6	7
+7	8
+8	9
+
+transfer2DTo3D:f
+mechAnalysis:true
+modalAnalysis:f
+loadDisp:f	
+saveForce:false
+saveDisp:t
+saveStress:false	
+rayAlpha=0e-5
+rayBeta=0e-5

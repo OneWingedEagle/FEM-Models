@@ -1,0 +1,101 @@
+//data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
+1
+//dimension 
+3
+//coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
+0
+//motor
+false
+//Number_of_Regions
+3
+//(name, density, E, v, [alpha,dT])
+punch,t,7800, 2e11, .3
+found,t,7800, 2e11, .3
+gel,t,7800, 2e6, .3
+//boundary condition:
+b1:
+b2:
+b3:
+b4:
+b5:
+b6:
+3
+z,-1,.001,0,0,1,0,2,0
+x,-1,0.001,0,0
+y,-1,0.001,1,0
+force folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\3D-contact
+force files:0,0,1
+
+intm:0
+
+dt:5.55555e-6
+
+contact
+1
+1.
+1.
+slave
+25
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+master
+25
+1340	1341	1352	1351
+1341	1342	1353	1352
+1342	1343	1354	1353
+1343	1344	1355	1354
+1344	1345	1356	1355
+1351	1352	1363	1362
+1352	1353	1364	1363
+1353	1354	1365	1364
+1354	1355	1366	1365
+1355	1356	1367	1366
+1362	1363	1374	1373
+1363	1364	1375	1374
+1364	1365	1376	1375
+1365	1366	1377	1376
+1366	1367	1378	1377
+1373	1374	1385	1384
+1374	1375	1386	1385
+1375	1376	1387	1386
+1376	1377	1388	1387
+1377	1378	1389	1388
+1384	1385	1396	1395
+1385	1386	1397	1396
+1386	1387	1398	1397
+1387	1388	1399	1398
+1388	1389	1400	1399
+
+transfer2DTo3D:f
+mechAnalysis:true
+modalAnalysis:f
+loadDisp:f	
+saveForce:t
+saveDisp:t
+saveStress:t	
+rayAlpha=1e-5
+rayBeta=1e-5

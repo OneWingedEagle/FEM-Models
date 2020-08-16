@@ -1,0 +1,412 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ /* CONTACT
+contact 
+ minEdgeLength ------------------------- 9.999753008949758E-4
+ / * N_CONTACT * NR_ITR. * AUG_ITER  * NLOADS  * MNR /
+4	8	2	1	0
+ / * NR_TOL  *  AUG_TOL * MNR_TOL/
+1e-2	1e-14 1.0e-2
+ /* PENALTY FACTOR */
+1.0
+ /* COEF OF FRICTION */
+1.0E+1
+ / * data type */
+2
+ /* REGION ID */
+1
+ /* v1x  v1y v1z */
+0.05380	        0.02733		0.000
+ /* v2x  v2y v2z */
+0.10209	        0.01439		0.000
+ /* v3x  v3y v3z */
+0.10209	        0.01439		0.1
+ /* v4x  v4y v4z */
+0.05380	        0.02733		0.1
+contact 0:  num. slave nodes ------------------------- 168
+ / * data type */
+2
+ /* REGION ID */
+3
+ /* v1x  v1y v1z */
+0.05380	        0.02733		0.000
+ /* v2x  v2y v2z */
+0.10209	        0.01439		0.000
+ /* v3x  v3y v3z */
+0.10209	        0.01439		0.1
+ /* v4x  v4y v4z */
+0.05380	        0.02733		0.1
+contact 0:  num. master facets ------------------------- 95
+ /* PENALTY FACTOR */
+1.0
+ /* COEF OF FRICTION */
+1.0E+1
+ / * data type */
+2
+ /* REGION ID */
+1
+ /* v1x  v1y v1z */
+0.09993	        0.00631		0.000	
+ /* v2x  v2y v2z */
+0.10078	        0.00951		0.000	
+ /* v3x  v3y v3z */
+0.10078	        0.00951		0.1	
+ /* v4x  v4y v4z */
+0.09993	        0.00631		0.1	
+contact 1:  num. slave nodes ------------------------- 24
+ / * data type */
+2
+ /* REGION ID */
+3
+ /* v1x  v1y v1z */
+0.09993	        0.00631		0.000	
+ /* v2x  v2y v2z */
+0.10078	        0.00951		0.000	
+ /* v3x  v3y v3z */
+0.10078	        0.00951		0.1	
+ /* v4x  v4y v4z */
+0.09993	        0.00631		0.1	
+contact 1:  num. master facets ------------------------- 10
+ /* PENALTY FACTOR */
+1.0
+ /* COEF OF FRICTION */
+1.0E+1
+ / * data type */
+2
+ /* REGION ID */
+2
+ /* v1x  v1y v1z */
+0.02733	        0.05380		0.000	
+ /* v2x  v2y v2z */
+0.01439	        0.10209		0.000	
+ /* v3x  v3y v3z */
+0.01439	        0.10209		0.1	
+ /* v4x  v4y v4z */
+0.02733	        0.05380		0.1	
+contact 2:  num. slave nodes ------------------------- 168
+ / * data type */
+2
+ /* REGION ID */
+3
+ /* v1x  v1y v1z */
+0.02733	        0.05380		0.000	
+ /* v2x  v2y v2z */
+0.01439	        0.10209		0.000	
+ /* v3x  v3y v3z */
+0.01439	        0.10209		0.1	
+ /* v4x  v4y v4z */
+0.02733	        0.05380		0.1	
+contact 2:  num. master facets ------------------------- 95
+ /* PENALTY FACTOR */
+1.0
+ /* COEF OF FRICTION */
+1.0E+1
+ / * data type */
+2
+ /* REGION ID */
+2
+ /* v1x  v1y v1z */
+0.00631	        0.09993		0.000	
+ /* v2x  v2y v2z */
+0.00951	        0.10078		0.000	
+ /* v3x  v3y v3z */
+0.00951	        0.10078		0.1		
+ /* v4x  v4y v4z */
+0.00631	        0.09993		0.1		
+contact 3:  num. slave nodes ------------------------- 24
+ / * data type */
+2
+ /* REGION ID */
+3
+ /* v1x  v1y v1z */
+0.00631	        0.09993		0.000	
+ /* v2x  v2y v2z */
+0.00951	        0.10078		0.000	
+ /* v3x  v3y v3z */
+0.00951	        0.10078		0.1		
+ /* v4x  v4y v4z */
+0.00631	        0.09993		0.1		
+contact 3:  num. master facets ------------------------- 10
+===== Slave Nodes ====  168
+===== Master Edges/Facets ====  95
+===== Slave Nodes ====  24
+===== Master Edges/Facets ====  10
+===== Slave Nodes ====  168
+===== Master Edges/Facets ====  95
+===== Slave Nodes ====  24
+===== Master Edges/Facets ====  10
+ Number of known u components : 1481
+Numb of unknown displacements: 7374
+ Number of known u components : 20641
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\results\bun.txt
+
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 7374
+
+ Calculating stiffness matrix ...
+ Static analysis....
+ Calculating nodal masss... 
+ Calculating stiffness matrix ...
+pf :1.3945293335404537E9
+pft :1.3945293335404538E7
+ Contact analysis....
+28  <==== 
+load_iter: 0
+aug_iter: 0
+1, stick: 126,  slip: 0
+2, stick: 6,  slip: 0
+3, stick: 126,  slip: 0
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 126
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 126
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 264
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.46E-02
+ICCG iteration:    50	 error : 2.57E-02	 res max: 1.92E-03
+ICCG iteration:   100	 error : 4.88E-04	 res max: 3.64E-05
+ICCG iteration:   150	 error : 3.07E-05	 res max: 2.29E-06
+ICCG iteration:   166	 error : 7.98E-07	 res max: 5.95E-08
+nr_iter: 0           nr_err: 1.0037258399037734       disp_err: 1.0
+1, stick: 144,  slip: 0
+2, stick: 24,  slip: 0
+3, stick: 144,  slip: 0
+4, stick: 24,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 138
+2, num slave nodes: 24,  numContactingNodes: 24
+3, num slave nodes: 168,  numContactingNodes: 138
+4, num slave nodes: 24,  numContactingNodes: 24
+totalnumContactingNodes: 324
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.63E00
+ICCG iteration:    50	 error : 3.31E-03	 res max: 5.39E-03
+ICCG iteration:   100	 error : 5.68E-06	 res max: 9.26E-06
+ICCG iteration:   123	 error : 9.15E-07	 res max: 1.49E-06
+nr_iter: 1           nr_err: 20.414435121321272       disp_err: 0.14665610258208064
+1, stick: 105,  slip: 0
+2, stick: 13,  slip: 0
+3, stick: 105,  slip: 0
+4, stick: 13,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 105
+2, num slave nodes: 24,  numContactingNodes: 13
+3, num slave nodes: 168,  numContactingNodes: 105
+4, num slave nodes: 24,  numContactingNodes: 13
+totalnumContactingNodes: 236
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.58E-01
+ICCG iteration:    50	 error : 1.17E-02	 res max: 1.86E-03
+ICCG iteration:   100	 error : 2.72E-05	 res max: 4.31E-06
+ICCG iteration:   145	 error : 7.46E-07	 res max: 1.18E-07
+nr_iter: 2           nr_err: 1.2200534044488156       disp_err: 0.07487283809855007
+1, stick: 99,  slip: 0
+2, stick: 7,  slip: 0
+3, stick: 99,  slip: 0
+4, stick: 7,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 99
+2, num slave nodes: 24,  numContactingNodes: 7
+3, num slave nodes: 168,  numContactingNodes: 99
+4, num slave nodes: 24,  numContactingNodes: 7
+totalnumContactingNodes: 212
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.01E-01
+ICCG iteration:    50	 error : 5.36E-03	 res max: 5.42E-04
+ICCG iteration:   100	 error : 9.21E-06	 res max: 9.31E-07
+ICCG iteration:   135	 error : 8.81E-07	 res max: 8.91E-08
+nr_iter: 3           nr_err: 0.8359839806137013       disp_err: 0.012378902782258758
+1, stick: 92,  slip: 0
+2, stick: 11,  slip: 0
+3, stick: 92,  slip: 0
+4, stick: 11,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 92
+2, num slave nodes: 24,  numContactingNodes: 11
+3, num slave nodes: 168,  numContactingNodes: 92
+4, num slave nodes: 24,  numContactingNodes: 11
+totalnumContactingNodes: 206
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 6.87E-02
+ICCG iteration:    50	 error : 8.81E-03	 res max: 6.05E-04
+ICCG iteration:   100	 error : 3.07E-05	 res max: 2.11E-06
+ICCG iteration:   150	 error : 8.06E-07	 res max: 5.54E-08
+nr_iter: 4           nr_err: 0.6120428100249918       disp_err: 0.032198271964207714
+1, stick: 86,  slip: 0
+2, stick: 6,  slip: 0
+3, stick: 86,  slip: 0
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 86
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 86
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 184
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.56E-02
+ICCG iteration:    50	 error : 1.37E-02	 res max: 7.59E-04
+ICCG iteration:   100	 error : 3.16E-05	 res max: 1.76E-06
+ICCG iteration:   149	 error : 9.40E-07	 res max: 5.23E-08
+nr_iter: 5           nr_err: 0.47181984035170366       disp_err: 0.020751247594581367
+1, stick: 80,  slip: 0
+2, stick: 12,  slip: 0
+3, stick: 80,  slip: 0
+4, stick: 12,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 80
+2, num slave nodes: 24,  numContactingNodes: 12
+3, num slave nodes: 168,  numContactingNodes: 80
+4, num slave nodes: 24,  numContactingNodes: 12
+totalnumContactingNodes: 184
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 9.80E-02
+ICCG iteration:    50	 error : 1.20E-02	 res max: 1.18E-03
+ICCG iteration:   100	 error : 2.21E-05	 res max: 2.16E-06
+ICCG iteration:   150	 error : 2.12E-06	 res max: 2.08E-07
+ICCG iteration:   160	 error : 8.98E-07	 res max: 8.80E-08
+nr_iter: 6           nr_err: 1.2060819406799341       disp_err: 0.0388944544351793
+1, stick: 80,  slip: 0
+2, stick: 12,  slip: 0
+3, stick: 80,  slip: 0
+4, stick: 12,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 80
+2, num slave nodes: 24,  numContactingNodes: 12
+3, num slave nodes: 168,  numContactingNodes: 80
+4, num slave nodes: 24,  numContactingNodes: 12
+totalnumContactingNodes: 184
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.23E-02
+ICCG iteration:    50	 error : 6.82E-03	 res max: 1.52E-04
+ICCG iteration:   100	 error : 2.35E-05	 res max: 5.25E-07
+ICCG iteration:   145	 error : 8.23E-07	 res max: 1.84E-08
+nr_iter: 7           nr_err: 0.1893919814196451       disp_err: 0.00383559037854088
+1, stick: 76,  slip: 4
+2, stick: 7,  slip: 5
+3, stick: 76,  slip: 4
+4, stick: 7,  slip: 5
+aug_iter: 1
+1, stick: 75,  slip: 4
+2, stick: 7,  slip: 5
+3, stick: 75,  slip: 4
+4, stick: 7,  slip: 5
+1, num slave nodes: 168,  numContactingNodes: 79
+2, num slave nodes: 24,  numContactingNodes: 12
+3, num slave nodes: 168,  numContactingNodes: 79
+4, num slave nodes: 24,  numContactingNodes: 12
+totalnumContactingNodes: 182
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.10E-02
+ICCG iteration:    50	 error : 1.25E-02	 res max: 6.36E-04
+ICCG iteration:   100	 error : 2.55E-05	 res max: 1.30E-06
+ICCG iteration:   150	 error : 2.77E-06	 res max: 1.41E-07
+ICCG iteration:   160	 error : 9.01E-07	 res max: 4.60E-08
+nr_iter: 0           nr_err: 0.49068815283658085       disp_err: 0.02031678313263626
+1, stick: 66,  slip: 3
+2, stick: 6,  slip: 0
+3, stick: 66,  slip: 3
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 69
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 69
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 150
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.01E-02
+ICCG iteration:    50	 error : 8.63E-03	 res max: 1.74E-04
+ICCG iteration:   100	 error : 6.56E-05	 res max: 1.32E-06
+ICCG iteration:   150	 error : 2.05E-06	 res max: 4.12E-08
+ICCG iteration:   156	 error : 8.07E-07	 res max: 1.62E-08
+nr_iter: 1           nr_err: 0.15163181172525494       disp_err: 0.0027810885774384895
+1, stick: 65,  slip: 2
+2, stick: 6,  slip: 0
+3, stick: 65,  slip: 2
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 67
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 67
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 146
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.85E-03
+ICCG iteration:    50	 error : 7.72E-03	 res max: 3.74E-05
+ICCG iteration:   100	 error : 4.26E-05	 res max: 2.07E-07
+ICCG iteration:   150	 error : 2.08E-06	 res max: 1.01E-08
+ICCG iteration:   156	 error : 9.94E-07	 res max: 4.82E-09
+nr_iter: 2           nr_err: 0.032757924721271585       disp_err: 6.201940656452817E-4
+1, stick: 62,  slip: 3
+2, stick: 6,  slip: 0
+3, stick: 62,  slip: 3
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 65
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 65
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 142
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.36E-03
+ICCG iteration:    50	 error : 6.32E-03	 res max: 2.76E-05
+ICCG iteration:   100	 error : 4.91E-05	 res max: 2.14E-07
+ICCG iteration:   150	 error : 1.81E-06	 res max: 7.90E-09
+ICCG iteration:   155	 error : 9.08E-07	 res max: 3.96E-09
+nr_iter: 3           nr_err: 0.03301913486295617       disp_err: 8.953318350639822E-4
+1, stick: 63,  slip: 3
+2, stick: 6,  slip: 0
+3, stick: 63,  slip: 3
+4, stick: 6,  slip: 0
+1, num slave nodes: 168,  numContactingNodes: 66
+2, num slave nodes: 24,  numContactingNodes: 6
+3, num slave nodes: 168,  numContactingNodes: 66
+4, num slave nodes: 24,  numContactingNodes: 6
+totalnumContactingNodes: 144
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.01E-03
+ICCG iteration:    50	 error : 3.09E-03	 res max: 3.11E-06
+ICCG iteration:   100	 error : 8.86E-05	 res max: 8.91E-08
+ICCG iteration:   150	 error : 1.96E-06	 res max: 1.97E-09
+ICCG iteration:   160	 error : 8.73E-07	 res max: 8.78E-10
+nr_iter: 4           nr_err: 0.008708525431252353       disp_err: 3.331863830288441E-4
+1, stick: 64,  slip: 1
+2, stick: 6,  slip: 0
+3, stick: 64,  slip: 1
+4, stick: 6,  slip: 0
+NR error
+ 0	1.0037e+00
+ 1	2.0414e+01
+ 2	1.2201e+00
+ 3	8.3598e-01
+ 4	6.1204e-01
+ 5	4.7182e-01
+ 6	1.2061e+00
+ 7	1.8939e-01
+ 8	4.9069e-01
+ 9	1.5163e-01
+ 10	3.2758e-02
+ 11	3.3019e-02
+ 12	8.7085e-03
+aug_disp changes vs aug_iter
+1.0000e+00
+2.1233e-02
+
+Gap[m] vs aug_iter
+7.3739e-07
+3.3565e-07
+
+slide[m] vs aug_iter
+1.0549e-04
+1.0567e-04
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\master_normal.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\slave_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\contact_force.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\results\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\results\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\results\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\3D-contact\IPM_V\data_out.txt
+0.00000e+00
+
+Computation time: 17.515 seconds
