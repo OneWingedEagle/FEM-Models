@@ -19,11 +19,11 @@ b4:
 b5:
 b6:
 3
-x,-1,.0003,0,0
-y,-1,.0003,0,0,1,0,2,0
-z,-1,.0003,2,0
+x,-1,.005,0,0
+y,-1,.005,1,0
+z,-1,.001,0,0,1,0,2,0
 force folder:
-D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrismxxx
+D:\JavaWorks\FEM problems\structural\3D-contact\PunchNAFEMS
 
 force files:0,0,1
 
@@ -31,24 +31,25 @@ intm:0
 
 dt:9e-5
 
-contact
-1	8	5	1 0
-1e-3	1e-14
-1.e0
-1.
-2
-1
-.0	.2  0
-.2	.2  0
-.2	.2  .1
-.0	.2  .1
-2
-2
-.0	.2  0
-.2	.2  0
-.2	.2  .1
-.0	.2  .1
 
+contact 
+/ * N_CONTACT * NR_ITR. * AUG_ITER  * NLOADS  * MNR /
+1				10			1			1		0
+1e-2	1e-2
+1
+0.
+1
+1
+16813
+16814
+16815
+16816
+1
+2
+16813
+16814
+16815
+16816
 
 
 transfer2DTo3D:f

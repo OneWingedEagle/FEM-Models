@@ -1,0 +1,122 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ /* CONTACT
+contact 
+ minEdgeLength ------------------------- 3.1286646640379983E-4
+ / * N_CONTACT * NR_ITR. * AUG_ITER  * NLOADS  * MNR /
+1				10			1			1		0
+ / * NR_TOL  *  AUG_TOL * MNR_TOL/
+1e-3	1e-2
+ minEdgeLength ------------------------- 3.1286646640379983E-4
+ /* PENALTY FACTOR */
+1
+ /* COEF OF FRICTION */
+1.
+ / * data type */
+3
+ /* REGION ID */
+1
+ /* r1  r2 t1  t2 z1 z2 */
+0.005	1  0 90 .1999 .2002
+ / * data type */
+2
+ /* REGION ID */
+2
+ /* v1x  v1y v1z */
+0.000	0.000	0.2
+ /* v2x  v2y v2z */
+0.100	0.000	0.2
+ /* v3x  v3y v3z */
+0.100	0.100	0.2
+ /* v4x  v4y v4z */
+0.000	0.100	0.2
+contact 0:  num. master facets ------------------------- 50
+===== Slave Nodes ====  132
+===== Master Edges/Facets ====  50
+ Number of known u components : 9364
+Numb of unknown displacements: 16668
+ Number of known u components : 41084
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\results\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 16668
+
+ Calculating stiffness matrix ...
+ Static analysis....
+pf :8.720021071566895E9
+pft :8.720021071566895E7
+ Contact analysis....
+0  <==== 
+load_iter: 0
+aug_iter: 0
+1, stick: 66,  slip: 0
+1, num slave nodes: 132,  numContactingNodes: 66
+totalnumContactingNodes: 66
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.34E-01
+ICCG iteration:    50	 error : 3.67E-02	 res max: 4.90E-03
+ICCG iteration:   100	 error : 4.81E-06	 res max: 6.42E-07
+ICCG iteration:   108	 error : 9.29E-07	 res max: 1.24E-07
+nr_iter: 0           nr_err: 1.0       disp_err: 1.0
+1, stick: 66,  slip: 0
+1, num slave nodes: 132,  numContactingNodes: 66
+totalnumContactingNodes: 66
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.22E-02
+ICCG iteration:    50	 error : 6.64E-03	 res max: 8.12E-05
+ICCG iteration:   100	 error : 1.76E-06	 res max: 2.15E-08
+ICCG iteration:   104	 error : 8.38E-07	 res max: 1.02E-08
+nr_iter: 1           nr_err: 0.08082736501585117       disp_err: 0.004333386327469614
+1, stick: 66,  slip: 0
+1, num slave nodes: 132,  numContactingNodes: 66
+totalnumContactingNodes: 66
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.25E-04
+ICCG iteration:    50	 error : 1.53E-03	 res max: 1.90E-07
+ICCG iteration:   100	 error : 1.23E-06	 res max: 1.53E-10
+ICCG iteration:   103	 error : 8.65E-07	 res max: 1.08E-10
+nr_iter: 2           nr_err: 0.0013403013946003256       disp_err: 1.6030123857273427E-5
+1, stick: 66,  slip: 0
+1, num slave nodes: 132,  numContactingNodes: 66
+totalnumContactingNodes: 66
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.49E-05
+ICCG iteration:    50	 error : 1.97E-04	 res max: 2.93E-09
+ICCG iteration:   100	 error : 1.29E-06	 res max: 1.91E-11
+ICCG iteration:   103	 error : 8.55E-07	 res max: 1.27E-11
+nr_iter: 3           nr_err: 1.189052637129451E-4       disp_err: 3.334321328879889E-6
+1, stick: 66,  slip: 0
+ Sparse Vector ********  dimention: 41072  size: 0 
+NR error
+ 0	1.0000e+00
+ 1	8.0827e-02
+ 2	1.3403e-03
+ 3	1.1891e-04
+aug_disp changes vs aug_iter
+1.0000e+00
+
+Gap[m] vs aug_iter
+2.4462e-07
+
+slide[m] vs aug_iter
+5.9737e-07
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\master_normal.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\slave_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\contact_force.txt
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\results\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\results\disp0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\Punch3DCircular\data_out.txt
+Computation time: 13.991 seconds
+Total cpu time (s):       14.5

@@ -23,7 +23,7 @@ x,-1,.0003,0,0
 y,-1,.0003,0,0,1,0,2,0
 z,-1,.0003,2,0
 force folder:
-D:\JavaWorks\FEM problems\structural\3D-contact\punchNFM5layersPrism
+D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrism
 
 force files:0,0,1
 
