@@ -4,6 +4,10 @@ Loading mesh file completed.
 1
 // dimension (2: 2D, 3:3D 
 // coordCode (0: Cartesian, 1: Cylindrical 
+D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrismxxx
+
+force files:0,0,1
+D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrism
  /* CONTACT
 contact
  minEdgeLength ------------------------- 5.212247308023682E-4
@@ -113,7 +117,6 @@ ICCG iteration:   100	 error : 1.42E-04	 res max: 7.28E-08
 ICCG iteration:   137	 error : 7.87E-07	 res max: 4.03E-10
 nr_iter: 4           nr_err: 9.429005301719595E-4       disp_err: 1.742286462083044E-5
 1, stick: 78,  slip: 0
- Sparse Vector ********  dimention: 46482  size: 0 
 aug_iter: 1
 1, stick: 78,  slip: 0
 1, num slave nodes: 144,  numContactingNodes: 78
@@ -152,7 +155,6 @@ ICCG iteration:   100	 error : 3.64E-04	 res max: 1.72E-07
 ICCG iteration:   140	 error : 9.62E-07	 res max: 4.53E-10
 nr_iter: 3           nr_err: 8.452268304099176E-4       disp_err: 2.125604123743997E-5
 1, stick: 78,  slip: 0
- Sparse Vector ********  dimention: 46482  size: 0 
 aug_iter: 2
 1, stick: 78,  slip: 0
 1, num slave nodes: 144,  numContactingNodes: 78
@@ -191,7 +193,6 @@ ICCG iteration:   100	 error : 5.66E-04	 res max: 1.13E-07
 ICCG iteration:   140	 error : 9.66E-07	 res max: 1.94E-10
 nr_iter: 3           nr_err: 3.55093588221147E-4       disp_err: 1.0398483084283355E-5
 1, stick: 78,  slip: 0
- Sparse Vector ********  dimention: 46482  size: 0 
 aug_iter: 3
 1, stick: 78,  slip: 0
 1, num slave nodes: 144,  numContactingNodes: 78
@@ -221,7 +222,6 @@ ICCG iteration:   100	 error : 5.61E-04	 res max: 6.65E-08
 ICCG iteration:   141	 error : 9.09E-07	 res max: 1.08E-10
 nr_iter: 2           nr_err: 2.3258464965368367E-4       disp_err: 5.965533146015265E-6
 1, stick: 78,  slip: 0
- Sparse Vector ********  dimention: 46482  size: 0 
 aug_iter: 4
 1, stick: 78,  slip: 0
 1, num slave nodes: 144,  numContactingNodes: 78
@@ -260,7 +260,6 @@ ICCG iteration:   100	 error : 5.62E-04	 res max: 2.07E-07
 ICCG iteration:   138	 error : 8.40E-07	 res max: 3.10E-10
 nr_iter: 3           nr_err: 5.67516784116933E-4       disp_err: 1.3683855923674136E-5
 1, stick: 78,  slip: 0
- Sparse Vector ********  dimention: 46482  size: 0 
 NR error
  0	1.0000e+00
  1	2.2825e-01
@@ -309,5 +308,5 @@ slide[m] vs aug_iter
  Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrism\results\force_out0.txt
  Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrism\results\disp0.txt
  Data file was written to D:\JavaWorks\FEM problems\structural\FEM models\3D-contact\punchNFM5layersPrism\data_out.txt
-Computation time: 55.537 seconds
-Total cpu time (s):       56.1
+Computation time: 62.598 seconds
+Total cpu time (s):       63.2
