@@ -1,0 +1,42 @@
+//data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
+1
+//dimension 
+3
+//coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
+0
+//motor
+false
+//Number_of_Regions
+2
+//(name, density, E, v, [alpha,dT])
+base,t,7800,1e11, .3
+base,t,7800,1e10, .3
+//boundary condition:
+b1:
+b2:
+b3:
+b4:
+b5:
+b6:
+2
+z,.0299,1,0,0,1,0,2,0
+z,-1,-.0299,0,0,1,0,2,0
+force folder:
+D:\JavaWorks\FEM problems\structural\rotating disc
+
+force files:0,200,1
+
+intm:3
+
+dt:5e-5
+
+
+transfer2DTo3D:f
+mechAnalysis:true
+modalAnalysis:f
+loadDisp:f	
+saveForce:f
+saveDisp:f
+saveStress:f
+rayAlpha=1e-5
+rayBeta=1e-5
